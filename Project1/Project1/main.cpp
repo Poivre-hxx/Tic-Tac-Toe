@@ -128,12 +128,12 @@ int main() {
 
 		FlushBatchDraw();
 
-		if (CheckWin('x')) 
+		if (CheckWin('X')) 
 		{
 			MessageBox(GetHWnd(), _T("x 玩家获胜"), _T("游戏结束"), MB_OK);
 			running = false;
 		}
-		else if (CheckWin('o')) 
+		else if (CheckWin('O')) 
 		{
 			MessageBox(GetHWnd(), _T("o 玩家获胜"), _T("游戏结束"), MB_OK);
 			running = false;
